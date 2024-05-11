@@ -8,7 +8,7 @@ ___
 - Нажать /start
 ---
 ## Схема работы
-![Scheme](./scheme.puml)
+![Scheme](scheme.puml)
 ___
 # Используемые технологии
 - frontend (telegram-bot на java/kotlin);
