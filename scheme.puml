@@ -1,0 +1,9 @@
+@startuml
+actor Client
+Client --> "Frontend" : Инициализация запроса
+"Frontend" --> "Middle" : Валидация и маршрутизация запроса
+"Middle" --> "Backend" : Обработка запроса
+"Backend" --> "Middle" : Ответ
+"Middle" --> "Frontend" : Ответ
+"Frontend" --> "Client" : Ответ
+@enduml
